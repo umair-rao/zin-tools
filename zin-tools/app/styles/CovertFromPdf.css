@@ -1,0 +1,12 @@
+.umair {
+    width: 20rem;
+    position: relative;
+    text-align: left;
+    padding: 24px;
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 12px;
+    transition: all .3s;
+    color: #272e62;
+    text-decoration: none;
+}
