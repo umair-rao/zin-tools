@@ -1,15 +1,27 @@
-import '../styles/CovertFromPdf.css'
+import "../styles/CovertFromPdf.css";
+import cardData from "./Data/CardsData.json";
 
 const CovertFromPdf = () => {
   return (
-    <div>
-      <div className="umair">
-        <img src="https://images.hipdf.com/images2022/icons/word-pdf.svg" alt="" />
-        <h3>Word to PDF</h3>
-        <p>The best Word to PDF converter online</p>
+    <div className="container">
+      <h2>Convert to PDF</h2>
+      <div className="toPdfBox">
+        {cardData.convertToPdf.map((item, i) => (
+          <div key={i} className="cardBox">
+            <a href={item.link}>
+              <img
+                src={item.image}
+                alt="icon"
+                className="card-img"
+              />
+              <h3>{item.title}</h3>
+              <p className="card-desc">{item.desc}</p>
+            </a>
+          </div>
+        ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default CovertFromPdf
+export default CovertFromPdf;

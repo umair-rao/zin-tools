@@ -1,4 +1,24 @@
-.umair {
+.container {
+    padding: 40px;
+    background: #FFFFFF;
+    border-radius: 24px;
+}
+
+.container h2 {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #121212;
+}
+
+.toPdfBox {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 24px;
+}
+
+.cardBox {
     width: 20rem;
     position: relative;
     text-align: left;
@@ -9,4 +29,31 @@
     transition: all .3s;
     color: #272e62;
     text-decoration: none;
+}
+
+.cardBox a {
+    color: #272e62;
+    text-decoration: none;
+}
+
+.card-img {
+    width: 65px;
+}
+
+.cardBox h3 {
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #121212;
+}
+
+.card-desc {
+    margin-top: 12px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(60,60,67,0.6);
 }

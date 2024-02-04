@@ -1,4 +1,4 @@
-import '../styles/Header.css'
+import '../../styles/Header.css'
 import { IoSettingsSharp } from "react-icons/io5";
 import { IoIosSearch } from "react-icons/io";
 import NavMenu from './NavMenu/NavMenu';

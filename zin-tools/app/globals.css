@@ -10,3 +10,11 @@ body {
   overflow-x: hidden;
   line-height: inherit;
 }
+
+.main-contianer {
+  display: flex;
+  flex-direction: column;
+  background: #F3F4F6;
+  padding: 0 64px;
+  gap: 2rem;
+}
