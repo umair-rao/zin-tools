@@ -32,6 +32,7 @@
 }
 
 .search-bar{
+    display: block;
     max-width: 500px;
     width: 100%;
     margin-left: 16px;
@@ -111,7 +112,6 @@
     margin-left: 5rem;
     margin-right: 5rem;
     height: 5rem;
-    /* background-color: aquamarine; */
 }
 
 .nav-list-item {
@@ -142,3 +142,89 @@ a:hover {
     text-decoration: underline;
     text-decoration-color: #523ee8;
   }
+
+  /* Responsive Screens */
+
+
+  @media (min-width: 1000px) and (max-width: 1200px){
+
+    .nav-list-item li {
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 999px) {
+    .nav-list-item {
+        display: none;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1024px){
+    .headerContainer {
+        height: 8vw;
+    }
+
+    .nav-list-item li {
+
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 600px){
+    .logo-icon {
+        font-size: 1.5rem;
+    }
+
+    .logo h1 {
+        font-size: 1rem;
+        width: 6rem;
+    }
+
+    .search-form {
+        display: none;
+    }
+
+    .header-btn {
+        display: flex;
+        width: 25rem;
+    }
+
+    .signUp-btn,
+.login-btn {
+  font-size: 12px;
+  font-weight: 600;
+  min-height: 25px;
+}
+}
+
+@media (max-width: 600px){
+
+    .headerContainer {
+        height: 12vw;
+    }
+
+    .logo-icon {
+        font-size: 1.5rem;
+    }
+
+    .logo h1 {
+        font-size: 1rem;
+        width: 6rem;
+    }
+
+    .search-form {
+        display: none;
+    }
+
+    .header-btn {
+        display: flex;
+        width: 85rem;
+    }
+
+    .signUp-btn,
+.login-btn {
+  font-size: 12px;
+  font-weight: 600;
+  min-height: 25px;
+}
+}

@@ -25,7 +25,7 @@ const Navbar = () => {
         </form>
       </div>
 
-      <div>
+      <div className='header-btn'>
         <button className='login-btn'>Log in</button>
         <button className='signUp-btn'>Sign up</button>
       </div>

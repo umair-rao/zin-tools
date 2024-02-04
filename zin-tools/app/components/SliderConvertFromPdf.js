@@ -45,11 +45,18 @@ const SliderConvertFromPdf = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 5,
-    slidesToScroll: 5,
+    slidesToScroll: 1,
     centerPadding: "2rem",
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
     responsive: [
+      {
+        breakpoint: 1300,
+        settings: {
+          slidesToShow: 4,
+          infinite: true,
+        }
+      },
         {
           breakpoint: 1024,
           settings: {
@@ -58,14 +65,14 @@ const SliderConvertFromPdf = () => {
           }
         },
         {
-          breakpoint: 600,
+          breakpoint: 786,
           settings: {
             slidesToShow: 2,
             infinite: true,
           }
         },
         {
-          breakpoint: 480,
+          breakpoint: 600,
           settings: {
             slidesToShow: 1,
             infinite: true,
