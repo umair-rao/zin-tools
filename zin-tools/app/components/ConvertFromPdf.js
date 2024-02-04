@@ -1,11 +1,11 @@
-import "../styles/CovertFromPdf.css";
+import "../styles/CardsStylling.css";
 import cardData from "./Data/CardsData.json";
 
-const CovertFromPdf = () => {
+const ConvertFromPdf = () => {
   return (
     <div className="container">
       <h2>Convert to PDF</h2>
-      <div className="toPdfBox">
+      <div className="box">
         {cardData.convertToPdf.map((item, i) => (
           <div key={i} className="cardBox">
             <a href={item.link}>
@@ -24,4 +24,4 @@ const CovertFromPdf = () => {
   );
 };
 
-export default CovertFromPdf;
+export default ConvertFromPdf;

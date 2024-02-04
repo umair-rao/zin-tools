@@ -1,136 +1,164 @@
-
-
 {
-    "convertToPdf": [
-        {
-            "id": 1,
-            "title": "Word to PDF",
-            "image": "https://images.hipdf.com/images2022/icons/word-pdf.svg",
-            "link": "/",
-            "desc": "The best Word to PDF converter online"
-          },
-          {
-            "id": 2,
-            "title": "PPT to PDF",
-            "image": "https://images.hipdf.com/images2022/icons/PPT-PDF.svg",
-            "link": "/",
-            "desc": "Convert Powerpoint to PDF"
-          },
-          {
-            "id": 3,
-            "title": "Excel to PDF",
-            "image": "https://images.hipdf.com/images2022/icons/Excel-PDF.svg",
-            "link": "/",
-            "desc": "Easily Convert Excel spreadsheet to PDF"
-          },
-          {
-            "id": 4,
-            "title": "JPG to PDF",
-            "image": "https://images.hipdf.com/images2022/icons/jpg-pdf.svg",
-            "link": "/",
-            "desc": "Convert JPG, PNG, BMP, GIF, and TIFF images to PDF"
-          },
-          {
-            "id": 5,
-            "title": "TXT to PDF",
-            "image": "https://images.hipdf.com/images2022/icons/Image-in-TXT.svg",
-            "link": "/",
-            "desc": "Convert TXT to PDF online for free"
-          },
-          {
-            "id": 6,
-            "title": "RTF to PDF",
-            "image": "https://images.hipdf.com/images2022/icons/Image-in-RTX.svg",
-            "link": "/",
-            "desc": "Convert RTF to PDF online for free"
-          },
-          {
-            "id": 7,
-            "title": "PUB to PDF",
-            "image": "https://images.hipdf.com/images2022/icons/Excel-PUB.svg",
-            "link": "/",
-            "desc": "Convert Publisher to PDF document"
-          }
-    ],
+  "bookmarks": [
+    {
+      "id": 1,
+      "title": "Edit PDF",
+      "image": "https://images.hipdf.com/images2022/icons/editPDF.svg",
+      "link": "/",
+      "desc": "Use the best online tool to edit PDFs in your browser."
+    },
+    {
+      "id": 2,
+      "title": "Crop PDF",
+      "image": "https://images.hipdf.com/images2022/icons/Crop-PDF.svg",
+      "link": "/",
+      "desc": "Crop PDF online to a selected area, adjust margin size swiftly."
+    },
+    {
+      "id": 3,
+      "title": "Replace Text",
+      "image": "https://images.hipdf.com/images2022/icons/replace-text-pdf.svg",
+      "link": "/",
+      "desc": "The easiest way to replace text online."
+    },
+    {
+      "id": 4,
+      "title": "Rotate PDF",
+      "image": "https://images.hipdf.com/images2022/icons/Rotate-PDF.svg",
+      "link": "/",
+      "desc": "Rotate and save your PDF pages online for free."
+    }
+  ],
 
-    
-    "convertFromPdf": [
-        {
-            "id": 1,
-            "title": "PDF to Word",
-            "image": "https://images.hipdf.com/images2022/icons/pdf-word.svg",
-            "link": "/",
-            "desc": "Easily convert PDF to Word document"
-          },
-          {
-            "id": 2,
-            "title": "PDF to PPT",
-            "image": "https://images.hipdf.com/images2022/icons/PDF-PPT.svg",
-            "link": "/",
-            "desc": "Convert PDF to Powerpoint online"
-          },
-          {
-            "id": 3,
-            "title": "PDF to Excel",
-            "image": "https://images.hipdf.com/images2022/icons/pdf-excel.svg",
-            "link": "/",
-            "desc": "Convert PDF to xls for free"
-          },
-          {
-            "id": 4,
-            "title": "PDF to JPG",
-            "image": "https://images.hipdf.com/images2022/icons/PDF-JPG.svg",
-            "link": "/",
-            "desc": "Convert PDF files to a set of optimized JPG, PNG, BMP G.."
-          },
-          {
-            "id": 5,
-            "title": "PDF to TXT",
-            "image": "https://images.hipdf.com/images2022/icons/PDF-TXT.svg",
-            "link": "/",
-            "desc": "Convert your PDF to TXT, and extract text from your PDF."
-          },
-          {
-            "id": 6,
-            "title": "PDF to RTF",
-            "image": "https://images.hipdf.com/images2022/icons/PDF-RTX.svg",
-            "link": "/",
-            "desc": "Convert PDF to RTF online for free"
-          },
-          {
-            "id": 7,
-            "title": "PDF to Pages",
-            "image": "https://images.hipdf.com/images2022/icons/PDF-Pages.svg",
-            "link": "/",
-            "desc": "Convert PDF to Pages on Mac and Windows"
-          },
-          {
-            "id": 8,
-            "title": "PDF to HTML",
-            "image": "https://images.hipdf.com/images2022/icons/pdf-html.svg",
-            "link": "/",
-            "desc": "Convert your PDF documents to HTML web page."
-          },
-          {
-            "id": 9,
-            "title": "PDF to DXF",
-            "image": "https://images.hipdf.com/images2022/icons/PDF-DXF.svg",
-            "link": "/",
-            "desc": "The best online tool to convert PDF to DXF online."
-          },
-          {
-            "id": 10,
-            "title": "PDF to EPUB",
-            "image": "https://images.hipdf.com/images2022/icons/PDF-EPUB.svg",
-            "link": "/",
-            "desc": "Convert PDF file to EPUB"
-          },
-          {
-            "id": 11,
-            "title": "OCR",
-            "image": "https://images.hipdf.com/images2022/icons/OCR.svg",
-            "link": "/",
-            "desc": "Convert scanned PDF's and images into editable"
-          }
-    ]
+  "convertToPdf": [
+    {
+      "id": 1,
+      "title": "Word to PDF",
+      "image": "https://images.hipdf.com/images2022/icons/word-pdf.svg",
+      "link": "/",
+      "desc": "The best Word to PDF converter online."
+    },
+    {
+      "id": 2,
+      "title": "PPT to PDF",
+      "image": "https://images.hipdf.com/images2022/icons/PPT-PDF.svg",
+      "link": "/",
+      "desc": "Convert Powerpoint to PDF online."
+    },
+    {
+      "id": 3,
+      "title": "Excel to PDF",
+      "image": "https://images.hipdf.com/images2022/icons/Excel-PDF.svg",
+      "link": "/",
+      "desc": "Convert Excel spreadsheet to PDF."
+    },
+    {
+      "id": 4,
+      "title": "JPG to PDF",
+      "image": "https://images.hipdf.com/images2022/icons/jpg-pdf.svg",
+      "link": "/",
+      "desc": "Convert JPG, PNG, TIFF images to PDF"
+    },
+    {
+      "id": 5,
+      "title": "TXT to PDF",
+      "image": "https://images.hipdf.com/images2022/icons/Image-in-TXT.svg",
+      "link": "/",
+      "desc": "Convert TXT to PDF online for free."
+    },
+    {
+      "id": 6,
+      "title": "RTF to PDF",
+      "image": "https://images.hipdf.com/images2022/icons/Image-in-RTX.svg",
+      "link": "/",
+      "desc": "Convert RTF to PDF online for free"
+    },
+    {
+      "id": 7,
+      "title": "PUB to PDF",
+      "image": "https://images.hipdf.com/images2022/icons/Excel-PUB.svg",
+      "link": "/",
+      "desc": "Convert Publisher to PDF document"
+    }
+  ],
+
+  "convertFromPdf": [
+    {
+      "id": 1,
+      "title": "PDF to Word",
+      "image": "https://images.hipdf.com/images2022/icons/pdf-word.svg",
+      "link": "/",
+      "desc": "Easily convert PDF to Word document"
+    },
+    {
+      "id": 2,
+      "title": "PDF to PPT",
+      "image": "https://images.hipdf.com/images2022/icons/PDF-PPT.svg",
+      "link": "/",
+      "desc": "Convert PDF to Powerpoint online."
+    },
+    {
+      "id": 3,
+      "title": "PDF to Excel",
+      "image": "https://images.hipdf.com/images2022/icons/pdf-excel.svg",
+      "link": "/",
+      "desc": "Convert PDF to xls for free."
+    },
+    {
+      "id": 4,
+      "title": "PDF to JPG",
+      "image": "https://images.hipdf.com/images2022/icons/PDF-JPG.svg",
+      "link": "/",
+      "desc": "Convert PDF files to a set of optimized JPG, PNG, BMP GIF or TIFF images."
+    },
+    {
+      "id": 5,
+      "title": "PDF to TXT",
+      "image": "https://images.hipdf.com/images2022/icons/PDF-TXT.svg",
+      "link": "/",
+      "desc": "Convert your PDF to TXT, and extract text from your PDF."
+    },
+    {
+      "id": 6,
+      "title": "PDF to RTF",
+      "image": "https://images.hipdf.com/images2022/icons/PDF-RTX.svg",
+      "link": "/",
+      "desc": "Convert PDF to RTF online for free"
+    },
+    {
+      "id": 7,
+      "title": "PDF to Pages",
+      "image": "https://images.hipdf.com/images2022/icons/PDF-Pages.svg",
+      "link": "/",
+      "desc": "Convert PDF to Pages on Mac and Windows"
+    },
+    {
+      "id": 8,
+      "title": "PDF to HTML",
+      "image": "https://images.hipdf.com/images2022/icons/pdf-html.svg",
+      "link": "/",
+      "desc": "Convert your PDF documents to HTML web page."
+    },
+    {
+      "id": 9,
+      "title": "PDF to DXF",
+      "image": "https://images.hipdf.com/images2022/icons/PDF-DXF.svg",
+      "link": "/",
+      "desc": "The best online tool to convert PDF to DXF online."
+    },
+    {
+      "id": 10,
+      "title": "PDF to EPUB",
+      "image": "https://images.hipdf.com/images2022/icons/PDF-EPUB.svg",
+      "link": "/",
+      "desc": "Convert PDF file to EPUB ebook."
+    },
+    {
+      "id": 11,
+      "title": "OCR",
+      "image": "https://images.hipdf.com/images2022/icons/OCR.svg",
+      "link": "/",
+      "desc": "Convert your scanned PDF's and images into editable Word, Excel, and PPT."
+    }
+  ]
 }

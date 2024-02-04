@@ -14,7 +14,7 @@ body {
 .main-contianer {
   display: flex;
   flex-direction: column;
-  background: #F3F4F6;
-  padding: 0 64px;
+  padding: 0 64px 0;
   gap: 2rem;
+  margin-bottom: 0;
 }
