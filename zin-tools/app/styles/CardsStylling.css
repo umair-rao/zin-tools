@@ -73,3 +73,29 @@
     line-height: 18px;
     color: rgba(60,60,67,0.6);
 }
+
+/* Responsive Screens */
+
+@media (min-width: 1460px) and (max-width: 1550px){
+    .box {
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1460px){
+    .box {
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (min-width: 786px) and (max-width: 1200px){
+    .box {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 786px) {
+    .box {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
