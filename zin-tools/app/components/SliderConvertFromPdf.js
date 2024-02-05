@@ -25,20 +25,20 @@ function SampleNextArrow(props) {
 }
 
 function SamplePrevArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-      <BsArrowLeftCircle
-        className={className}
-        style={{
-            ...style,
-            display: "block",
-            background: "white",
-            color: "black",
-          }}
-        onClick={onClick}
-      />
-    );
-  }
+  const { className, style, onClick } = props;
+  return (
+    <BsArrowLeftCircle
+      className={className}
+      style={{
+        ...style,
+        display: "block",
+        background: "white",
+        color: "black",
+      }}
+      onClick={onClick}
+    />
+  );
+}
 
 const SliderConvertFromPdf = () => {
   const settings = {
@@ -55,39 +55,39 @@ const SliderConvertFromPdf = () => {
         settings: {
           slidesToShow: 4,
           infinite: true,
-        }
+        },
       },
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 3,
-            infinite: true,
-          }
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          infinite: true,
         },
-        {
-          breakpoint: 786,
-          settings: {
-            slidesToShow: 2,
-            infinite: true,
-          }
+      },
+      {
+        breakpoint: 786,
+        settings: {
+          slidesToShow: 2,
+          infinite: true,
         },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 1,
-            infinite: true,
-          }
-        }
-      ]
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          infinite: true,
+        },
+      },
+    ],
   };
 
   return (
     <div className="container">
       <h2>Convert to PDF</h2>
       <div className="slider-container">
-      <Slider {...settings}>
+        <Slider {...settings}>
           {cardData.convertToPdf.map((item, i) => (
-            <div key={i} className="cardBox" >
+            <div key={i} className="cardBox">
               <a href={item.link}>
                 <img src={item.image} alt="icon" className="card-img" />
                 <h3>{item.title}</h3>
@@ -95,7 +95,7 @@ const SliderConvertFromPdf = () => {
               </a>
             </div>
           ))}
-    </Slider>
+        </Slider>
       </div>
     </div>
   );

@@ -9,11 +9,7 @@ const ConvertFromPdf = () => {
         {cardData.convertToPdf.map((item, i) => (
           <div key={i} className="cardBox">
             <a href={item.link}>
-              <img
-                src={item.image}
-                alt="icon"
-                className="card-img"
-              />
+              <img src={item.image} alt="icon" className="card-img" />
               <h3>{item.title}</h3>
               <p className="card-desc">{item.desc}</p>
             </a>

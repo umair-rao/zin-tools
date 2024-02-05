@@ -18,3 +18,9 @@ body {
   gap: 2rem;
   margin-bottom: 0;
 }
+
+@media (max-width: 786px) {
+  .main-contianer {
+    padding: 0;
+  }
+}

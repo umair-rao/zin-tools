@@ -1,106 +1,82 @@
-
-
 {
-    "navHeadings": [
-        {
-            "id": 1,
-            "title": "Stock Video",
-            "link": "/",
-            "has_dropdown": true,
-            "sub_menus": [
-              { "link": "/", "title": "Home" }
-            ]
-          },
-          {
-            "id": 2,
-            "title": "Video Templates",
-            "link": "/",
-            "has_dropdown": true,
-            "sub_menus": [
-              { "link": "/", "title": "Home" }
-            ]
-          },
-          {
-            "id": 3,
-            "title": "Music",
-            "link": "/",
-            "has_dropdown": true,
-            "sub_menus": [
-              { "link": "/", "title": "Home" }
-            ]
-          },
-          {
-            "id": 4,
-            "title": "Sound Effects",
-            "link": "/",
-            "has_dropdown": true,
-            "sub_menus": [
-              { "link": "/", "title": "Home" }
-            ]
-          },
-          {
-            "id": 5,
-            "title": "Graphic Templates",
-            "link": "/",
-            "has_dropdown": true,
-            "sub_menus": [
-              { "link": "/", "title": "Home" }
-            ]
-          },
-          {
-            "id": 6,
-            "title": "Graphics",
-            "link": "/",
-            "has_dropdown": true,
-            "sub_menus": [
-              { "link": "/", "title": "Home" }
-            ]
-          },
-          {
-            "id": 7,
-            "title": "Presentation Templates",
-            "link": "/",
-            "has_dropdown": true,
-            "sub_menus": [
-              { "link": "/", "title": "Home" }
-            ]
-          },
-          {
-            "id": 8,
-            "title": "Photos",
-            "link": "/",
-            "has_dropdown": true,
-            "sub_menus": [
-              { "link": "/", "title": "Home" }
-            ]
-          },
-          {
-            "id": 9,
-            "title": "Add-ons",
-            "link": "/",
-            "has_dropdown": true,
-            "sub_menus": [
-              { "link": "/", "title": "Home" }
-            ]
-          },
-          {
-            "id": 10,
-            "title": "Web Templates",
-            "link": "/",
-            "has_dropdown": true,
-            "sub_menus": [
-              { "link": "/", "title": "Home" }
-            ]
-          },
-          
-          {
-            "id": 11,
-            "title": "More",
-            "link": "/",
-            "has_dropdown": true,
-            "sub_menus": [
-              { "link": "/", "title": "Home" }
-            ]
-          }
-    ]
+  "navHeadings": [
+    {
+      "id": 1,
+      "title": "Stock Video",
+      "link": "/",
+      "has_dropdown": true,
+      "sub_menus": [{ "link": "/", "title": "Home" }]
+    },
+    {
+      "id": 2,
+      "title": "Video Templates",
+      "link": "/",
+      "has_dropdown": true,
+      "sub_menus": [{ "link": "/", "title": "Home" }]
+    },
+    {
+      "id": 3,
+      "title": "Music",
+      "link": "/",
+      "has_dropdown": true,
+      "sub_menus": [{ "link": "/", "title": "Home" }]
+    },
+    {
+      "id": 4,
+      "title": "Sound Effects",
+      "link": "/",
+      "has_dropdown": true,
+      "sub_menus": [{ "link": "/", "title": "Home" }]
+    },
+    {
+      "id": 5,
+      "title": "Graphic Templates",
+      "link": "/",
+      "has_dropdown": true,
+      "sub_menus": [{ "link": "/", "title": "Home" }]
+    },
+    {
+      "id": 6,
+      "title": "Graphics",
+      "link": "/",
+      "has_dropdown": true,
+      "sub_menus": [{ "link": "/", "title": "Home" }]
+    },
+    {
+      "id": 7,
+      "title": "Presentation Templates",
+      "link": "/",
+      "has_dropdown": true,
+      "sub_menus": [{ "link": "/", "title": "Home" }]
+    },
+    {
+      "id": 8,
+      "title": "Photos",
+      "link": "/",
+      "has_dropdown": true,
+      "sub_menus": [{ "link": "/", "title": "Home" }]
+    },
+    {
+      "id": 9,
+      "title": "Add-ons",
+      "link": "/",
+      "has_dropdown": true,
+      "sub_menus": [{ "link": "/", "title": "Home" }]
+    },
+    {
+      "id": 10,
+      "title": "Web Templates",
+      "link": "/",
+      "has_dropdown": true,
+      "sub_menus": [{ "link": "/", "title": "Home" }]
+    },
+
+    {
+      "id": 11,
+      "title": "More",
+      "link": "/",
+      "has_dropdown": true,
+      "sub_menus": [{ "link": "/", "title": "Home" }]
+    }
+  ]
 }
