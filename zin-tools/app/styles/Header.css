@@ -161,9 +161,6 @@ a:hover {
   .headerContainer {
     height: 8vw;
   }
-
-  .nav-list-item li {
-  }
 }
 
 @media (max-width: 1000px) and (min-width: 600px) {
@@ -221,6 +218,6 @@ a:hover {
     font-size: 12px;
     font-weight: 600;
     min-height: 25px;
-    width: 50px;
+    width: 85px;
   }
 }
