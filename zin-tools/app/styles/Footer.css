@@ -109,8 +109,7 @@
   display: flex;
   max-width: max-content;
   width: 100%;
-  color: inherit;
-  text-decoration: inherit;
+  text-decoration: none;
 }
 
 .footer-logo-text {
@@ -144,6 +143,7 @@
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 700;
+  text-decoration: none;
 }
 
 .footer-bottom ul {
