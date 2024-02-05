@@ -112,6 +112,10 @@
   text-decoration: none;
 }
 
+.footer-logo a:hover {
+  text-decoration: none;
+}
+
 .footer-logo-text {
   display: flex;
   align-items: center;
